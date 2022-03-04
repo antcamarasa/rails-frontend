@@ -1,0 +1,18 @@
+// Specific CSS for your home-page
+$red: blue;
+
+h1  {
+  color: $red;
+
+  span {
+    background-color: yellow;
+  }
+}
+
+a {
+  color: $red;
+
+  &:hover {
+    color: green;
+  }
+}
